@@ -29,7 +29,7 @@
       "allowToChangeInstallationDirectory": true
     }
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/GugaLiz/electron-template",
   "keywords": [
     "Electron",
     "quick",
