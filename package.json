@@ -4,8 +4,11 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "build": "electron-builder --win --x64"
+    "watch:test": "cross-env DEPLOY_ENV=test webpack --watch",
+    "watch:master": "cross-env DEPLOY_ENV=master webpack --watch",
+    "build:web": "webpack",
+    "electron": "electron .",
+    "build:window": "electron-builder --win --x64"
   },
   "build": {
     "appId": "start.app",
@@ -32,15 +35,66 @@
   "repository": "https://github.com/GugaLiz/electron-template",
   "keywords": [
     "Electron",
-    "quick",
+    "react",
+    "mobx",
     "start",
-    "tutorial",
     "demo"
   ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Li Liu",
   "devDependencies": {
-    "electron": "^20.1.0",
-    "electron-builder": "23.3.3"
+    "@babel/core": "7.19.1",
+    "@babel/plugin-proposal-decorators": "7.19.1",
+    "@babel/preset-env": "7.19.1",
+    "@babel/preset-react": "7.18.6",
+    "autoprefixer": "7.1.6",
+    "axios": "^0.27.2",
+    "babel-loader": "8.2.5",
+    "classnames": "2.2.5",
+    "clean-webpack-plugin": "4.0.0",
+    "core-decorators": "0.20.0",
+    "cpx": "1.5.0",
+    "cross-env": "7.0.3",
+    "css-loader": "6.7.1",
+    "electron": "20.1.0",
+    "electron-builder": "23.3.3",
+    "eslint": "8.23.1",
+    "eslint-loader": "4.0.2",
+    "extract-text-webpack-plugin": "3.0.2",
+    "file-loader": "6.2.0",
+    "friendly-errors-webpack-plugin": "1.7.0",
+    "html-webpack-plugin": "5.5.0",
+    "less": "4.1.1",
+    "less-loader": "7.0.1",
+    "mini-css-extract-plugin": "2.6.1",
+    "mobx": "4.15.4",
+    "mobx-react": "6.1.8",
+    "normalize.css": "8.0.0",
+    "optimize-css-assets-webpack-plugin": "6.0.1",
+    "postcss": "8.4.16",
+    "postcss-cssnext": "3.1.1",
+    "postcss-flexbugs-fixes": "5.0.2",
+    "postcss-loader": "7.0.1",
+    "postcss-preset-env": "7.8.2",
+    "prettier": "1.13.7",
+    "react": "16.9.0",
+    "react-dev-utils": "^12.0.1",
+    "react-dom": "16.9.0",
+    "rimraf": "3.0.2",
+    "rmc-feedback": "2.0.0",
+    "style-loader": "3.3.1",
+    "url-loader": "4.1.1",
+    "webpack": "5.74.0",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.11.1",
+    "webpack-manifest-plugin": "1.3.2",
+    "antd-mobile": "^5.24.0"
+  },
+  "dependencies": {
+
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": true,
+    "printWidth": 160
   }
 }

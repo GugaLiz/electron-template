@@ -1,0 +1,66 @@
+{
+  "/jx3/recall210922/get_my_info": [
+    {
+      "name": "默认",
+      "data": {
+        "code": 1,
+        "status": 1,
+        "msg": "",
+        "message": "",
+        "data": {
+          "is_first": 0,
+          "role_type": 1,
+          "share_key": "MTIzMjExeg",
+          "map_1": 1,
+          "map_2": 1,
+          "map_3": 1,
+          "map_4": 1,
+          "map_5": 10,
+          "is_bind_passport": 1,
+          "invitation_count": 0,
+          "is_synthetic": 0,
+          "is_get_chymz": 0,
+          "gain_time": 1,
+          "daily_help": 3,
+          "is_subscribe": 0,
+          "synthetic_time": 1,
+          "point": 1000,
+          "invitation_msg": [
+            {
+              "point": 420,
+              "nick_name": "113132",
+              "avater_url": ""
+            },
+            {
+              "point": 80,
+              "nick_name": "113132",
+              "avater_url": ""
+            },
+            {
+              "point": 500,
+              "nick_name": "113132",
+              "avater_url": ""
+            }
+          ],
+          "session_id": "64unryU1lGXhjXNz5ZZY4Yg3pnVKEfrt883cVdRA",
+          "request_id": "af8f108d43fcc34069fc90b61923500fd9b53005"
+        }
+      }
+    }
+  ],
+  "/jx3/recall210922/help": [
+    {
+      "name": "默认",
+      "data": {
+        "code": 1,
+        "status": 1,
+        "msg": "",
+        "message": "",
+        "data": {
+          "session_id": "aCgJwti4AnF3sDyOjHbyzSoO3v2GKyQAUN4huxma",
+          "request_id": "3eaed702ce2d3272f4e8ac16c6f4fea84e30d6d3"
+        }
+      }
+    }
+  ]
+}

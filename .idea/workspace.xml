@@ -1,10 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5aed5ee-fb92-4af7-b84e-f3b23803cfb9" name="Changes" comment="fix：update repository">
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/electron-template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tiny-img/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tiny-img/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tiny-img/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/tiny-img/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/link/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/link/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/link/story/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/link/story/audios/touch-nav.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/link/story/index.story.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modal/api-mock-overlay/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modal/api-mock-overlay/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modal/api-mock-overlay/mock-item.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modal/api-mock-overlay/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modal/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/page/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tiny-input/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tiny-input/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/tiny-input/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/toast/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/url.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mobx-store/root-store/global-store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mobx-store/root-store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/app-router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/images/link-before-layer-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/components/befor-link/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/main/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render-app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/base-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/general/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/zt/api-mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/zt/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/zt/mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/zt/mock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/zt/zt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/clear-undefined-field.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/date-util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/error-code-handle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/hooks/use-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/stores/input-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/stores/mock-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/type-utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/wrap-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="FileColors">
     <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
     <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
     <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -12,21 +113,156 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="ProjectId" id="2EOCetXkON8eHUKhftqrHnE2ZP0" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.0.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.20.55" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="D:\临时文件夹\2022\9月\electron\electron-template\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2021.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\临时文件夹\2022\9月\electron\electron-template\src\utils" />
+      <recent name="D:\临时文件夹\2022\9月\electron\electron-template\src\utils\stores" />
+      <recent name="D:\临时文件夹\2022\9月\electron\electron-template\src\components" />
+      <recent name="D:\临时文件夹\2022\9月\electron\electron-template\scripts" />
+      <recent name="D:\临时文件夹\2022\9月\electron\electron-template\src\pages\main\components\befor-link" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\临时文件夹\2022\9月\electron\electron-template\src\pages\main\components\befor-link" />
+      <recent name="D:\临时文件夹\2022\9月\electron\electron-template\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.electron">
+    <configuration name="electron" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="electron" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:electron" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:electron" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch:test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch:test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.electron" />
+        <item itemvalue="npm.watch:test" />
+        <item itemvalue="npm.watch" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start:electron" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5aed5ee-fb92-4af7-b84e-f3b23803cfb9" name="Changes" comment="" />
+      <created>1662457341970</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662457341970</updated>
+      <workItem from="1662457345040" duration="2542000" />
+      <workItem from="1663640982332" duration="2688000" />
+      <workItem from="1663810122685" duration="25133000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat：init template">
+      <created>1662457404091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662457404092</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix：update repository">
+      <created>1662457457006</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662457457006</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat：init template" />
+    <MESSAGE value="fix：update repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix：update repository" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
